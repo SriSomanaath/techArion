@@ -23,10 +23,10 @@ const DropDown = ({SectionName, ProductsCatalog}) => {
     </button>
             {ProductsCatalog && (
                 isOpen && (
-                    <div className="absolute flex-row top-20 flex flex-col items-start rounded-lg p-2 w-full">
+                    <div className="absolute flex-row lg:top-20 top-10 lg:right-2 right-32 flex flex-col items-center rounded-lg p-2 w-full">
                         {ProductsCatalog.map((item, i) => (
-                            <div key={i} className="flex w-full justify-between hover:bg-blue-100 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4">
-                                <h3 className="font-bold p-4">{item.title}</h3>
+                            <div key={i} className="flex w-full justify-between bg-sky-500 cursor-pointer rounded-lg border-l-transparent hover:border-l-white border-l-4 m-1 hover:text-black">
+                                <h5 className="font-bold p-4 text-sm w-full">{item.title}</h5>
                             </div>
                         ))}
                     </div>
