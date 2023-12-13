@@ -3,6 +3,7 @@
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import ServicesList from "@/sections/ServicesList";
+import ContactUs from "@/sections/ContactUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <ServicesList />
+      <ContactUs />
     </main>
   );
 }
