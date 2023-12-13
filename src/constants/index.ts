@@ -36,3 +36,41 @@ export const services = [
       description: "By leveraging these best practices and cutting-edge tools, Techarion delivers top-notch Android apps that meet the diverse needs of clients and offer exceptional user experiences."
     }
   ];
+
+  
+export const footerLinks = [
+  {
+      title: "Products",
+      links: [
+          { name: "Air Force 1", link: "/" },
+          { name: "Air Max 1", link: "/" },
+          { name: "Air Jordan 1", link: "/" },
+          { name: "Air Force 2", link: "/" },
+          { name: "Nike Waffle Racer", link: "/" },
+          { name: "Nike Cortez", link: "/" },
+      ],
+  },
+  {
+      title: "Help",
+      links: [
+          { name: "About us", link: "/" },
+          { name: "FAQs", link: "/" },
+          { name: "How it works", link: "/" },
+          { name: "Privacy policy", link: "/" },
+          { name: "Payment policy", link: "/" },
+      ],
+  },
+  {
+      title: "Get in touch",
+      links: [
+          { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+          { name: "+9492203556", link: "tel:+8074464139" },
+      ],
+  },
+];
+
+export const socialMedia = [
+  { src: "/facebook.svg", alt: "facebook logo" },
+  { src: "/twitter.svg", alt: "twitter logo" },
+  { src: "/instagram.svg", alt: "instagram logo" },
+];

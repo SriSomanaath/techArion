@@ -51,11 +51,11 @@ const ContactUs = () => {
         </div>
         <div className="mb-4">
           <label className="block text-gray-600 font-semibold mb-2">How much are you willing to spend?</label>
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto">
-            <button class="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">10-15L</button>
-            <button class="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">20-25L</button>
-            <button class="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">25L+</button>
-            <button class="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">1-5L</button>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto">
+            <button className="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">10-15L</button>
+            <button className="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">20-25L</button>
+            <button className="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">25L+</button>
+            <button className="bg-zinc-400 hover:bg-zinc-500 text-black font-bold py-2 px-4 rounded">1-5L</button>
           </div>
         </div>
         <div className="mb-4">
