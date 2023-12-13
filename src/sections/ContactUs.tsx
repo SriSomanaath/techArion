@@ -45,7 +45,7 @@ const ContactUs = () => {
           <label className="block text-gray-600 font-semibold mb-2">What can we do for you?</label>
           <textarea
             placeholder="Write your message here..."
-            rows="4"
+            rows={4}
             className="w-full border rounded-md p-2 resize-none focus:outline-none focus:border-blue-500"
           ></textarea>
         </div>
