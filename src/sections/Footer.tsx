@@ -9,8 +9,7 @@ const Footer = () => {
       <div className='flex flex-col items-start'>
         <h1 className="text-white text-5xl font-bold">TechArion.com</h1>
         <p className='mt-6 text-base leading-7 font-montserrat text-white sm:max-w-sm'>
-          Get shoes ready for the new term at your nearest Nike store. Find
-          Your perfect Size In Store. Get Rewards
+        Empowering lives through innovative software solutions, tackling complex challenges with simplicity.
         </p>
         <div className='flex items-center gap-5 mt-8'>
           {socialMedia.map((icon) => (
